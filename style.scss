@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  max-width: 1440px;
+  height: 900px;
+  padding: 164px 165px;
+  justify-content: center;
+  align-items: center;
+  background: #ecf2f8;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+
+  .first {
+    grid-column: span 2;
+    width: 540px;
+    height: 282px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #733fc8;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding-inline: 32px;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+    z-index: -2;
+    .Headline {
+      display: flex;
+      gap: 17px;
+      div {
+        display: flex;
+        gap: 2px;
+        flex-direction: column;
+      }
+      img {
+        width: 28px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        border: 2px solid #a775f1;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+      }
+      .FirstP {
+        color: #fff;
+        font-family: Barlow Semi Condensed;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 13px; /* 100% */
+      }
+      .SecondP {
+        color: #fff;
+        font-family: Barlow Semi Condensed;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 11px; /* 100% */
+        opacity: 0.5;
+      }
+    }
+    .jobOffer {
+      width: 476px;
+      p {
+        color: #fff;
+        font-family: Barlow Semi Condensed;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+    .Artical {
+      width: 476px;
+      p {
+        color: #cfcfcf;
+        font-family: Barlow Semi Condensed;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; /* 138.462% */
+        opacity: 0.7;
+      }
+    }
+    .Comas {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+
+      left: 340px;
+      svg {
+        width: 104px;
+        height: 102px;
+        flex-shrink: 0;
+      }
+    }
+  }
+
+  .thrid {
+    grid-row: span 2;
+    width: 255px;
+    height: 572px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+    padding-inline: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    .Headline {
+      display: flex;
+
+      gap: 17px;
+      img {
+        width: 28px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+      }
+      .FirstP {
+        color: #48556a;
+        font-family: Barlow Semi Condensed;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 13px; /* 100% */
+      }
+      .SecondP {
+        color: #48556a;
+        font-family: Barlow Semi Condensed;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 11px; /* 100% */
+        opacity: 0.5;
+      }
+    }
+    .jobOffer {
+      width: 191px;
+      color: #48556a;
+      font-family: Barlow Semi Condensed;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .Artical {
+      width: 191px;
+      p {
+        color: #48556a;
+        font-family: Barlow Semi Condensed;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; /* 138.462% */
+      }
+    }
+  }
+  .fifth {
+    grid-column: span 2;
+    width: 540px;
+    height: 266px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #19202d;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding-inline: 32px;
+    justify-content: center;
+    .Headline {
+      display: flex;
+      gap: 17px;
+      img {
+        width: 28px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        border: 2px solid #733fc8;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        .FirstP {
+          color: #fff;
+          font-family: Barlow Semi Condensed;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 13px; /* 100% */
+        }
+        .SecondP {
+          color: #fff;
+          font-family: Barlow Semi Condensed;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 11px; /* 100% */
+          opacity: 0.5;
+        }
+      }
+    }
+    .jobOffer {
+      width: 476px;
+      p {
+        color: #ecf2f8;
+        font-family: Barlow Semi Condensed;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+    .Artical {
+      width: 476px;
+      p {
+        color: #fff;
+        font-family: Barlow Semi Condensed;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; /* 138.462% */
+        opacity: 0.5;
+      }
+    }
+  }
+  .fourht {
+    width: 255px;
+    height: 266px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding-inline: 32px;
+    gap: 17px;
+    justify-content: center;
+    .Headline {
+      display: flex;
+      gap: 17px;
+      img {
+        width: 28px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        .FirstP {
+          color: #48556a;
+          font-family: Barlow Semi Condensed;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 13px; /* 100% */
+        }
+        .SecondP {
+          color: #48556a;
+          font-family: Barlow Semi Condensed;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 11px; /* 100% */
+          opacity: 0.5;
+        }
+      }
+    }
+    .jobOffer {
+      width: 191px;
+      p {
+        color: #48556a;
+        font-family: Barlow Semi Condensed;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+    .Artical {
+      width: 191px;
+      p {
+        color: #48556a;
+        font-family: Barlow Semi Condensed;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; /* 138.462% */
+      }
+    }
+  }
+  .second {
+    width: 255px;
+    height: 282px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #48556a;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding-inline: 32px;
+    justify-content: center;
+    gap: 16px;
+    .Headline {
+      display: flex;
+      gap: 17px;
+      img {
+        width: 28px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+      }
+      .FirstP {
+        color: #fff;
+        font-family: Barlow Semi Condensed;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 13px; /* 100% */
+      }
+      .SecondP {
+        color: #fff;
+        font-family: Barlow Semi Condensed;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 11px; /* 100% */
+        opacity: 0.5;
+      }
+    }
+    .jobOffer {
+      width: 191px;
+      p {
+        color: #fff;
+        font-family: Barlow Semi Condensed;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+    .Artical {
+      width: 191px;
+      p {
+        color: #fff;
+        font-family: Barlow Semi Condensed;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; /* 138.462% */
+        opacity: 0.7;
+      }
+    }
+  }
+}
+@media screen and (max-width: 780px) {
+  body {
+    padding: 0;
+  }
+  section {
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+
+    .first {
+      grid-column: span 1;
+      width: 327px;
+      height: 444px;
+      flex-shrink: 0;
+      .jobOffer {
+        width: 263px;
+      }
+      .Artical {
+        width: 247px;
+      }
+      .Comas {
+        left: 199px;
+        width: 104px;
+        height: 102px;
+        flex-shrink: 0;
+      }
+    }
+    .second {
+      width: 327px;
+      height: 240px;
+      flex-shrink: 0;
+      .jobOffer {
+        width: 263px;
+      }
+      .Artical {
+        width: 263px;
+      }
+    }
+    .thrid {
+      grid-row: span 1;
+      width: 327px;
+      height: 438px;
+      flex-shrink: 0;
+      .Artical {
+        width: 263px;
+      }
+    }
+    .fourht {
+      width: 327px;
+      height: 222px;
+      flex-shrink: 0;
+    }
+    .fifth {
+      grid-column: span 1;
+      width: 327px;
+      height: 384px;
+      flex-shrink: 0;
+      .Artical {
+        width: 263px;
+      }
+      .jobOffer {
+        width: 263px;
+      }
+    }
+  }
+}
